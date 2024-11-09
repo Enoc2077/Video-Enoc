@@ -1,0 +1,30 @@
+body {
+    font-family: 'Arial', sans-serif; /* Cambia la fuente aquí si lo deseas */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+.gallery {
+    text-align: center; /* Centra el texto dentro de la galería */
+    margin: 20px; /* Margen alrededor de la galería */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas en la grilla */
+    gap: 10px; /* Espacio entre las imágenes */
+    max-width: 1200px; /* Ancho máximo para la grilla */
+    margin: 0 auto; /* Centra la grilla en su contenedor */
+}
+
+.image-item img {
+    width: 100%; /* Asegúrate de que las imágenes se escalen */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+}
+
+h1 {
+    font-size: 2rem; /* Tamaño del encabezado */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
